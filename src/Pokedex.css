@@ -1,0 +1,32 @@
+@keyframes grow {
+	0%,
+	100% {
+		font-size: 1.5rem;
+	}
+	50% {
+		font-size: 2rem;
+	}
+}
+
+.Pokedex {
+	text-align: center;
+	padding: 1rem;
+	position: relative;
+}
+
+.Pokedex-title {
+	color: gray;
+}
+
+.Pokedex-win {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	animation: grow 1.5s;
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: seagreen;
+}
